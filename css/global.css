@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+:root {
+  --gray-900: rgb(164, 0, 176);
+  --gray-500: rgb(46, 2, 50);
+  --gray-100: #ddd;
+  --red-500: #e23b62;
+}
+
+body {
+  background-color: var(--gray-900);
+  color: var(--gray-100);
+  font-family: "Quintessential", Geneva, Verdana, sans-serif;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
