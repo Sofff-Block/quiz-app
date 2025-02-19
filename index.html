@@ -12,6 +12,7 @@
 
   </head>
   <body class="layout">
+    <script src="./index.js" defer></script>
     <header class="layout__heading">
       <h1>Gilmore girls</h1>
     </header>
@@ -20,17 +21,17 @@
         <li>
           <article class="card">
             <h2 class="card__question">What is the name of the fictional town where Gilmore Girls is set?</h2>
-            <button class="card__button">Find out</button>
-            <span class="card__answer">Stars Hollow</span>
+            <button class="card__button" data-js="cardAnswer">Show answer</button>
+            <span class="card__answer" data-js="answerSpan">Stars Hollow</span>
             <ul class="tag-list">
               <li class="tag-list__item">luke's diner </li>
               <li class="tag-list__item">miss patty's </li>
             </ul>
 
-            <button class="bookmark">
+            <button class="bookmark" data-js="bookmark">
 
               <svg
-                class="bookmark__icon"
+                class="bookmark__icon" 
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
@@ -171,6 +172,24 @@
             </svg>
           </a>
         </li>
+
+    </li>
+    <li class="nav__item">
+      <a class="nav__link" href="/form.html">
+        <svg xmlns="http://www.w3.org/2000/svg"
+         width="24" height="24" viewBox="0 0 24 24" 
+         fill="none" stroke="currentColor"
+          stroke-width="2" stroke-linecap="round"
+           stroke-linejoin="round" 
+           class="lucide lucide-circle-plus"
+           ><circle cx="12" cy="12" r="10"/>
+           <path d="M8 12h8"/><path d="M12 8v8"/>
+        </svg>
+
+          <path d="m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z" />
+        </svg>
+      </a>
+    </li>
         <li class="nav__item">
           <a class="nav__link" class="nav__link" href="/profile.html">
             <svg
