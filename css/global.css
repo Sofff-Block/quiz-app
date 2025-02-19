@@ -4,15 +4,15 @@
 }
 
 :root {
-  --gray-900: #BEBBBB
-  --gray-500: #2F243A;
-  --gray-100: #2F243A
-  --red-500: #e23b62;
+  --gray-900: #2F243A;
+  --gray-500: #BEBBBB;
+  --gray-100: #2F243A;
+  --red-500: #c34624;;
   --gray-300:#726c6c;
 }
 
 body {
-  background-color: var(--gray-100);
+  background-color: var(--gray-900);
   color: var(--gray-100);
   font-family: 'Courier New', Courier, monospace;
   font-size: 13px;
@@ -25,7 +25,6 @@ font-size: 30px;;
 color: #DB8A74;
 }
 ul {
-  font-family: ;
   list-style: none;
   padding: 0;
 }
